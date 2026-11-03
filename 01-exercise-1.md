@@ -44,7 +44,7 @@ You will be able to complete the following tasks:
 1. Run the following command to download the package:
 
    ```bash
-   curl -L -o ~/clouddrive/microseg-lab-terraform.zip "https://<storage-account-name>.blob.core.windows.net/<container-name>/microseg-lab-terraform.zip"
+   curl -L -o ~/clouddrive/microseg-lab-terraform.zip "https://experienceazure.blob.core.windows.net/templates/panw/microseg-lab-terraform.zip"
    ```
 
 1. Run the following command to extract it:
@@ -94,8 +94,6 @@ You will be able to complete the following tasks:
 1. Replace the placeholder values with the following values:
 
    - **fw_auth_code:** <inject key="AuthCode"></inject>
-   - **fw_pin_id:** `ca9ca928-2dfd-4d9a-ba9d-92f63b9f0254`
-   - **fw_pin_value:** `8b41cb1c9f9f49e982f542567d5f3d43`
 
    The updated lines look like this, with your own auth code:
 

@@ -45,11 +45,13 @@ Welcome to the Micro-Segmentation using Palo Alto Networks VM-Series on Azure la
 
 > **Note:** The lab duration is shown at the top right corner of your lab environment page once the lab is launched by clicking the **Launch Lab** button. The timer starts automatically, so keep an eye on it while performing your lab tasks.
 
+   ![](./media/pan1.png)
+
 ## Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕** icon located next to the timer in the lab environment.
 
-![](./media/zum.png)
+![](./media/zoom.png)
 
 ## Exploring Your Lab Resources
 
@@ -61,7 +63,7 @@ To view your lab credentials and the values used in this lab, such as the **Auth
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-![](./media/splittt.png)
+![](./media/split.png)
 
 ## ☁️ Get Started with Azure Portal
 
@@ -75,15 +77,23 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
+      ![](./media/g1.png)
+
 1. Enter the following password and click **Sign in**.
 
    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+      ![](./media/g2.png)
 
    > **Note:** You can also find these values on the **Environment** tab.
 
 1. If you see the **Stay signed in?** prompt, click **No**.
 
+   ![](./media/g3.png)
+
 1. If you see the **Welcome to Microsoft Azure** pop-up, click **Cancel** to skip the tour.
+
+   ![](./media/g4.png)
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
