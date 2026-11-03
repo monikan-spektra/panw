@@ -19,9 +19,15 @@ You will be able to complete the following tasks:
 
 1. In the Azure portal, click the **Cloud Shell** icon in the top navigation bar.
 
+   ![](./media/ex1-1.png)
+
 1. When prompted, select **Bash**.
 
+   ![](./media/ex1-2.png)
+
 1. If you are asked to set up storage, select **Mount storage account**, choose your subscription, and click **Apply**. On the next screen, select **We will create a storage account for you** and click **Next**.
+
+   ![](./media/ex1-3.png)
 
    > **Note:** Storage keeps your lab files and Terraform state if Cloud Shell restarts.
 
