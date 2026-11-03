@@ -77,6 +77,7 @@ You will be able to complete the following tasks:
 
    - **Auth Code:** <inject key="AuthCode"></inject>
 
+
    > **Note:** The auth code is unique to your lab environment. Use the value shown in your **Environment** tab and not the example value in the settings file.
 
 1. Run the following command to create your settings file:
