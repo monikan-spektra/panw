@@ -1,0 +1,27 @@
+{
+   "$schema":"https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+   "contentVersion":"1.0.0.0",
+   "parameters":{
+      "DeploymentID":{
+         "type":"string"
+      },
+      "AuthCode":{
+         "type":"string",
+         "metadata":{
+            "description":"PAN-OS BYOL auth code for the VM-Series firewall"
+         }
+      }
+   },
+   "variables":{
+
+   },
+   "resources":[
+
+   ],
+   "outputs":{
+      "AuthCode":{
+         "type":"String",
+         "value":"[parameters('AuthCode')]"
+      }
+   }
+}
