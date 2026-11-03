@@ -2,21 +2,21 @@
 
 ### Overall Estimated Duration: 120 Minutes
 
-## 📘 Lab Scenario
+##  Lab Scenario
 
 Your organization runs banking workloads on Azure, with the accounts, transactions, and payments services on separate Ubuntu VMs. Some of these VMs share a subnet, so traditional network security groups and subnet-level controls cannot stop traffic between them. The security team wants to inspect and control east-west traffic between individual workloads, even inside the same subnet, without redesigning the network.
 
 In this lab, you use a Palo Alto Networks VM-Series firewall managed from Strata Cloud Manager to apply micro-segmentation to these workloads.
 
-## 📖 Lab Overview
+## Lab Overview
 
 In this hands-on lab, you use Azure Cloud Shell and Terraform to deploy two virtual networks, a Palo Alto Networks VM-Series firewall, and three Ubuntu VMs. VM1 runs the panredirect agent, which sends its traffic to the firewall through a Geneve tunnel. You then onboard the firewall in Strata Cloud Manager, push the security policies, and test that traffic from VM1 to VM2 is blocked even though they are in the same subnet, while traffic from VM1 to VM3 is allowed.
 
-## 🎯 Objectives
+## Objectives
 
 - **Exercise 1 - Run Terraform:** Use Azure Cloud Shell to run the Terraform deployment that provisions the virtual networks, the VM-Series firewall, and the three Ubuntu VMs.
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Participants should have:
 
@@ -25,11 +25,11 @@ Participants should have:
 - Basic knowledge of Terraform (`init`, `apply`, `output`).
 - Basic understanding of firewall security policies.
 
-## 🏗️ Architecture
+##  Architecture
 
 The lab deploys two virtual networks in the **East US** region. The workload network contains three Ubuntu VMs: VM1 and VM2 share one subnet, and VM3 is in a second subnet. The security network contains the Palo Alto Networks VM-Series firewall, which is licensed with your auth code and bootstrapped at first boot from an Azure file share. VM1 runs the panredirect agent, which sends its traffic to the firewall through a Geneve tunnel, so the firewall can inspect it even when the destination is in the same subnet. The firewall is managed from Strata Cloud Manager, where you define and push the security policies.
 
-### 🔍 Explanation of Components
+### Explanation of Components
 
 - **Azure Cloud Shell:** The browser-based shell where you run Azure CLI and Terraform to deploy the lab.
 - **Terraform:** Deploys and configures all the Azure resources for the lab.
@@ -39,7 +39,7 @@ The lab deploys two virtual networks in the **East US** region. The workload net
 - **panredirect agent:** Runs on VM1 and redirects its traffic to the firewall through a Geneve tunnel.
 - **Strata Cloud Manager:** The Palo Alto Networks cloud console used to onboard the firewall, push policies, and review logs.
 
-## 🚀 Getting Started with the Lab
+## Getting Started with the Lab
 
 Welcome to the Micro-Segmentation using Palo Alto Networks VM-Series on Azure lab. Begin by setting up the lab environment.
 
@@ -99,7 +99,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 > **Note:** You must deploy the resources in the following region: **East US (eastus)**
 
-## 🆘 Support Contact
+## Support Contact
 
 The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
